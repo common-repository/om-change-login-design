@@ -1,0 +1,102 @@
+/* CSS Document */
+/* .login #backtoblog a, .login #nav a, .login h1 a{ color:#000;} */
+/*html {
+background-color: #FFF;
+background-image: url('../images/main-bg1.jpg');
+background-position: center center;
+background-repeat: no-repeat;
+
+-webkit-background-size: contain;
+-moz-background-size: contain;
+-ms-background-size: contain;
+-o-background-size: contain;
+background-size: contain;
+}
+*/
+html {
+   background-image: url('../images/main-bg1.jpg'); no-repeat center center fixed;
+   background-size:100%;
+   background-repeat:no-repeat;
+ -webkit-background-size: contain;
+-moz-background-size: contain;
+-ms-background-size: contain;
+-o-background-size: contain;
+background-size: contain;
+background-size: 1140px;
+max-width:100% !important;
+margin:auto;
+}
+#nav,#backtoblog{ margin-left:19px !important; width:340px;}
+#nav a,#backtoblog a{ color:rgba(255,255,255,1.00) !important;}
+ #login h1 a, .login h1 a{background-size: 100% auto;background-repeat: no-repeat;display: block;}
+.login{
+	padding-top:140px;
+	background-color: #FFF;
+	background-image: url('../images/main-bg1.jpg');
+	height: 100%;
+	width:100%;
+	display:block;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	}
+#login {
+    padding: 14% 0 0;
+    width: 438px;
+}
+#loginform{ background-color:transparent; border:none; box-shadow:none;}
+#om_login_design_top_text{ text-align: center; color: #fff;}
+.login label{ color:#FFF !important;}
+#login h1{ text-align:center;}
+/* .login h1 a {
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: inherit;
+    height: 247px !important;
+    width: 400px !important;
+} */
+/* .login h1 a {
+    float: left;
+    margin: 20px auto 0 30px;
+} */
+#lostpasswordform{ background-color:rgba(255,255,255,0.80) !important; border-radius:8px !important; margin-top:54px !important;}
+#lostpasswordform label{ color:rgba(0,0,0,1.00) !important; }
+#login{
+    background-color: #1d7c95;
+    padding: 30px 70px;
+    width: 600px;
+    border-radius:16px;
+    }
+.login #backtoblog, .login #nav {
+    margin-right: 35px;
+    margin-top: 10px;
+    text-align: right;
+}
+
+
+.login #backtoblog, .login #nav {
+    margin-right: 35px;
+    margin-top: 10px;
+    text-align: right;
+}
+.login #backtoblog, .login #nav {
+    font-size: 13px;
+    padding: 0 24px;
+}
+.wp-core-ui .button-primary, .button{
+	background-color:#000000 !important;
+	border:#000000 1px solid !important;
+	width:140px !important;
+	}
+
+.wp-core-ui .button-primary{box-shadow:none !important;}
+
+.wp-core-ui .button-primary:hover{background-color:#666;}
+.message-view{ padding:8px; background-color:#FFF; margin-top:-70px; text-align:center;}
+#login_error{ margin-top:-100px;}
+/*.message{ margin-top:-60px !important;}*/
+/* Footer Css */
+.om_login_design_footer_text{ text-align: center; color: #fff; font-weight: bolder;}
+@media (min-width: 100px) and (max-width: 600px) {
+#login{ width:calc(100% - 20px); padding: 4px;} }
